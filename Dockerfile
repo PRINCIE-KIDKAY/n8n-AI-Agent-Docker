@@ -7,7 +7,7 @@ FROM docker.n8n.io/n8nio/n8n
 # Set custom environment variables (you can add more based on your needs)
 
 ENV N8N_CUSTOM_ENV=true
-ENV N8N_HOST=0.0.0.0
+# ENV N8N_HOST=0.0.0.0
 # ENV N8N_PORT=5678
 # ENV N8N_PROTOCOL=http
 
