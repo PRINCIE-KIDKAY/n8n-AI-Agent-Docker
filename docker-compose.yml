@@ -59,6 +59,8 @@ services:
       - N8N_SECURE_COOKIE=false
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - N8N_HOST=0.0.0.0
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=https
 
     volumes:
       - n8n_storage:/home/node/.n8n
