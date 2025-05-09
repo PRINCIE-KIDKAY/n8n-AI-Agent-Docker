@@ -6,4 +6,4 @@ FROM docker.n8n.io/n8nio/n8n
 ENV N8N_CUSTOM_ENV=true
 EXPOSE 80
 
-CMD ["n8n"]
+# CMD ["n8n"]
