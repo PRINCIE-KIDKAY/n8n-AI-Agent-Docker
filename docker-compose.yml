@@ -42,7 +42,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 80:5678
       - 5678:5678
     environment:
       - DB_TYPE=postgresdb
