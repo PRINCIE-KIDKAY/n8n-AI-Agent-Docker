@@ -42,6 +42,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
+      - 80:5678
       - 5678:5678
     environment:
       - DB_TYPE=postgresdb
@@ -57,7 +58,7 @@ services:
       - N8N_RUNNERS_ENABLED=true
       - N8N_SECURE_COOKIE=false
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
-      - N8N_HOST=0.0.0.0
+      # - N8N_HOST=0.0.0.0
       - N8N_PORT=5678
       - N8N_PROTOCOL=https
 
