@@ -58,6 +58,7 @@ services:
       - N8N_RUNNERS_ENABLED=true
       - N8N_SECURE_COOKIE=false
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - N8N_HOST=0.0.0.0
 
     volumes:
       - n8n_storage:/home/node/.n8n
